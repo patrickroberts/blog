@@ -1,0 +1,35 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Patrick's Blog"
+copyright = "&copy; 2025 Patrick Roberts"
+
+[params]
+dateFormat = "2 January 2006"
+
+# mainSections = ["section1", "section2"]
+description = "A Software Engineering Blog"
+
+[params.author]
+name = "Patrick Roberts, P.E."
+image = "img/icon.png"
+headline = "Principal Software Engineer"
+bio = """\
+I am a licensed Professional Electrical and Computer Engineer, specializing in C++, embedded systems, and ultra-low
+latency programming. In 2017, I graduated from the University of Houston with a Bachelor of Science in Electrical
+Engineering, and have been licensed to practice engineering in the state of Texas since 2022.
+
+Many successful programming languages, libraries, and tools make use of various techniques that fascinate me, and I
+enjoy learning how (and when!) to apply these and maybe benefit from that success in other contexts.
+
+Through this blog, I want to share some of these techniques and their applications with you.
+"""
+links = [
+  { email = "mailto:hello@patrickroberts.dev" },
+  { link = "https://patrickroberts.dev" },
+  { github = "https://github.com/patrickroberts" },
+  { linkedin = "https://linkedin.com/in/patrick-roberts-htx" },
+  { stack-overflow = "https://stackoverflow.com/users/1541563/patrick-roberts" },
+]
